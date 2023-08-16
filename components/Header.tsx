@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '@/public/img/logo.png'
+
 export const Header = () => {
     const headerLinks = [
         {
@@ -69,13 +71,18 @@ export const Header = () => {
                                         )}
                                     </Disclosure.Button>
                                 </div>
-                                <div className='flex flex-1 items-center justify-center md:items-stretch md:justify-evenly'>
+                                <div className='flex flex-1 items-center justify-end md:items-stretch md:justify-between'>
                                     <div className='flex flex-shrink-0 items-center'>
-                                        {/* <Image src={''} alt={'logo'}></Image> */}
-                                        <p>Logo</p>
+                                        <Link href={'/'}>
+                                            <Image
+                                                src={logo}
+                                                alt={'logo'}
+                                                className='w-20 h-auto'
+                                            ></Image>
+                                        </Link>
                                     </div>
-                                    <div className='hidden md:ml-6 md:block'>
-                                        <div className='flex justify-between gap-10'>
+                                    <div className='hidden md:ml-6 md:flex md:justify-center md:items-center'>
+                                        <div className='flex justify-between items-center gap-10'>
                                             {headerLinks.map((data: any) => (
                                                 <Link
                                                     key={data.id}
@@ -87,14 +94,14 @@ export const Header = () => {
                                             ))}
                                         </div>
                                     </div>
+                                    <Link
+                                        href={'tel:+79493780380'}
+                                        target='_blank'
+                                        className='hidden lg:block p-2 bg-sky-400 hover:bg-sky-300 transition text-white font-semibold rounded-md'
+                                    >
+                                        +7(949)378-03-80
+                                    </Link>
                                 </div>
-                                <Link
-                                    href={'tel:+79493780380'}
-                                    target='_blank'
-                                    className='hidden lg:block p-2 bg-sky-400 hover:bg-sky-300 transition text-white font-semibold rounded-md'
-                                >
-                                    +7(949)378-03-80
-                                </Link>
                             </div>
                         </div>
 
