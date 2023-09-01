@@ -10,9 +10,9 @@ export const SecondSection = () => {
     return (
         <div className='mb-4 my-0 mx-auto max-w-7xl'>
             <div className='px-4'>
-                <div className=' lg:max-w-5xl mx-auto mt-[-2rem] mb-4 px-4 py-6 flex flex-col lg:flex-row justify-between items-center gap-4 bg-sky-400 text-white rounded-3xl border-2 border-white text-center'>
+                <div className='lg:max-w-5xl mx-auto mt-[-2rem] mb-4 px-4 py-6 flex flex-col lg:flex-row justify-between items-center gap-4 bg-sky-400 text-white rounded-3xl border-2 border-white text-center'>
                     <Link
-                        className='order-2 lg:order-1 flex-1 p-4 mr-4 bg-green-700 hover:bg-green-600 transition text-2xl rounded-2xl'
+                        className='order-2 lg:order-1 flex-1 p-4 mr-4 bg-green-700 hover:bg-green-600 transition text-3xl rounded-2xl'
                         href={
                             'https://docs.google.com/forms/d/1pFd-eVEa1BKra1vNXVA5ZvFRaeiKQpRC-mJh9m_jAOg/edit?pli=1'
                         }
@@ -21,7 +21,7 @@ export const SecondSection = () => {
                         Оставить заявку
                     </Link>
                     {/* <div className='order-2 hidden lg:block border-2 h-[60px] border-white rounded-sm '></div> */}
-                    <div className='order-3 flex-1 text-3xl px-2 '>
+                    <div className='order-3 flex-1 text-2xl md:text-3xl px-2 '>
                         Сделай вклад в свое будущее уже сейчас
                     </div>
                 </div>
@@ -33,7 +33,7 @@ export const SecondSection = () => {
                     className='hidden lg:block'
                 ></Image>
                 <div className='text-base mx-auto'>
-                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl bg-sky-400 text-white'>
+                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl border-2 md:text-lg border-sky-400'>
                         <Image
                             src={emoji1}
                             alt={''}
@@ -44,7 +44,7 @@ export const SecondSection = () => {
                             говорить&quot;
                         </p>
                     </div>
-                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl bg-sky-400 text-white'>
+                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl border-2 md:text-lg border-sky-400'>
                         <Image
                             src={emoji2}
                             alt={''}
@@ -55,7 +55,7 @@ export const SecondSection = () => {
                             английским!&quot;
                         </p>
                     </div>
-                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl bg-sky-400 text-white'>
+                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl border-2 md:text-lg border-sky-400'>
                         <Image
                             src={emoji3}
                             alt={''}
@@ -66,7 +66,7 @@ export const SecondSection = () => {
                             результата так и нет!&quot;
                         </p>
                     </div>
-                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl bg-sky-400 text-white'>
+                    <div className='flex justify-start items-center p-1 mb-6 rounded-xl border-2 md:text-lg border-sky-400'>
                         <Image
                             src={emoji4}
                             alt={''}

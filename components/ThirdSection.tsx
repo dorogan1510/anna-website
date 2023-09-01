@@ -8,6 +8,8 @@ import img1 from '@/public/img/4-section/1.jpg'
 import img2 from '@/public/img/4-section/2.jpg'
 import img3 from '@/public/img/4-section/3.jpg'
 import img4 from '@/public/img/4-section/4.jpg'
+import img5 from '@/public/img/4-section/5.jpg'
+import img6 from '@/public/img/4-section/6.jpg'
 
 export const ThirdSection = () => {
     return (
@@ -56,36 +58,41 @@ export const ThirdSection = () => {
             <div className='relative'>
                 <div className={style.thirdSection}></div>
                 <div className='px-4'>
-                    <div className='max-w-7xl mx-auto p-4 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                        <div className='max-w-md flex flex-col justify-between gap-4'>
-                            <div className='p-8  rounded-3xl bg-sky-400/80 text-center text-white'>
-                                <h3 className='uppercase mb-4 text-2xl'>
+                    <div className='max-w-7xl mx-auto p-4 flex flex-col lg:flex-row justify-between items-center lg:items-stretch gap-4'>
+                        <div className='max-w-lg flex flex-col gap-4 justify-between '>
+                            <div className='p-8  rounded-3xl bg-sky-400/80 text-left text-white'>
+                                <h3 className='uppercase mb-4 text-xl lg:text-2xl font-bold'>
                                     Индивидуальная программа
                                 </h3>
-                                <div className='text-xl'>
+                                <div className='text-lg lg:text-xl'>
                                     Подберем программу лично под ваши цели и
                                     желания
                                 </div>
                             </div>
-                            <div className='p-8  rounded-3xl bg-sky-400/80 text-center text-white'>
-                                <h3 className='uppercase mb-4 text-2xl'>
+                            <div className='p-8  rounded-3xl bg-sky-400/80 text-left text-white'>
+                                <h3 className='uppercase mb-4 text-xl lg:text-2xl font-bold'>
                                     Учеба всегда под рукой
                                 </h3>
-                                <div className='text-xl'>
+                                <div className='text-lg lg:text-xl'>
                                     Личный кабинет позволяет выполнять задания с
                                     любого устройства
                                 </div>
                             </div>
                         </div>
-                        <div className='max-w-md p-8  rounded-3xl bg-sky-400/80 text-center text-white'>
-                            <h3 className='uppercase mb-4 text-2xl'>
-                                Подключение в один клик
+                        <div className='max-w-lg lg:max-w-2xl p-8  rounded-3xl bg-sky-400/80 text-left text-white'>
+                            <h3 className='uppercase mb-4 text-xl md:text-2xl font-bold'>
+                                Подключение <br /> в один клик
                             </h3>
-                            <div className='text-xl'>
+                            <div className='text-lg md:text-xl'>
+                                Вам больше не нужно устанавливать дополнительные
+                                приложения и переключаться между вкладками.
                                 Интерактивная платформа обеспечивает подключение
-                                к уроку без дополнительных приложений: любое
-                                устройство, наушники и интернет – всё, что нужно
-                                для урока!
+                                к уроку прямо из вашего личного кабинета.
+                                Нажимай на кнопку и попадай на индивидуальный
+                                урок с твоим лучшим учителем. Любое устройство
+                                (телефон, планшет, ноутбук, компьютер), наушники
+                                и интернет – всё, что нужно для урока! Мы ждём
+                                именно тебя!
                             </div>
                         </div>
                     </div>
@@ -285,6 +292,103 @@ export const ThirdSection = () => {
                                 прослушивание песен и индивидуальный подход уже
                                 ждут тебя. Давай вместе сразимся с твоим страхом
                                 и наконец-то выучим этот английский! &quot;
+                            </p>
+                        </div>
+                        <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
+                            <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
+                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                    <Image
+                                        src={img5}
+                                        alt={''}
+                                        className='w-full h-auto rounded-full'
+                                    ></Image>
+                                </div>
+                                <div className='w-full'>
+                                    <h4 className='text-center lg:text-left text-xl font-bold'>
+                                        Татьяна Грудина
+                                    </h4>
+                                    <p className='mb-2 text-lg text-sky-400 font-semibold text-center lg:text-left'>
+                                        Преподаватель (7-15 лет)
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Опыт:{' '}
+                                        </span>
+                                        8 лет
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Образование:{' '}
+                                        </span>
+                                        высшее, специалист &quot;Учитель
+                                        английского языка, испанского языка и
+                                        зарубежной литературы&quot;
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Особые отметки:{' '}
+                                        </span>
+                                        подготовка к ЕГЭ; «Лучший инновационный
+                                        проект 2023» в конкурсе
+                                        профессионального мастерства
+                                    </p>
+                                </div>
+                            </div>
+                            <p className='lg:max-w-md italic'>
+                                &quot;Я уверена, что пользу иностранных языков
+                                сложно переоценить. Изучая иностранные языки, мы
+                                также познаём себя, этот мир и расширяем
+                                кругозор. Мои ученики ежедневно погружаются в
+                                увлекательнейший мир английского языка. А уже
+                                жду вас для новых путешествий!&quot;
+                            </p>
+                        </div>
+                        <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
+                            <div className='mx-auto w-full  lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
+                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                    <Image
+                                        src={img6}
+                                        alt={''}
+                                        className='w-full h-auto rounded-full'
+                                    ></Image>
+                                </div>
+                                <div className='w-full'>
+                                    <h4 className='text-center lg:text-left text-xl font-bold'>
+                                        Полина Трюхан
+                                    </h4>
+                                    <p className='mb-2 text-lg text-sky-400 font-semibold text-center lg:text-left'>
+                                        Преподаватель (6-15 лет)
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Опыт:{' '}
+                                        </span>
+                                        5 лет
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Образование:{' '}
+                                        </span>
+                                        лингвист-переводчик (перевод и
+                                        переводоведение){' '}
+                                    </p>
+                                    <p className='mb-1'>
+                                        <span className='font-semibold text-green-700'>
+                                            Особые отметки:{' '}
+                                        </span>
+                                        диплом с отличием, международный экзамен
+                                        DSD Zweite Stufe (уровень C1 шкалы
+                                        Совета Европы)
+                                    </p>
+                                </div>
+                            </div>
+                            <p className='lg:max-w-md italic'>
+                                &quot;Немецкий язык – это структура и
+                                лаконичность. А его изучение откроет для вас
+                                безграничные возможности. Уверена, освоение
+                                немецкого языка станет увлекательным процессом,
+                                наполненным множеством интересных открытий. А я
+                                с удовольствием помогу вам в этом! &quot;
                             </p>
                         </div>
                     </div>

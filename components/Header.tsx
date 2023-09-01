@@ -35,13 +35,6 @@ export const Header = () => {
         },
     ]
 
-    const navigation = [
-        { name: 'Dashboard', href: '#', current: true },
-        { name: 'Team', href: '#', current: false },
-        { name: 'Projects', href: '#', current: false },
-        { name: 'Calendar', href: '#', current: false },
-    ]
-
     function classNames(...classes: any) {
         return classes.filter(Boolean).join(' ')
     }
@@ -77,12 +70,12 @@ export const Header = () => {
                                             <Image
                                                 src={logo}
                                                 alt={'logo'}
-                                                className='w-20 h-auto'
+                                                className='w-[8rem] h-auto'
                                             ></Image>
                                         </Link>
                                     </div>
                                     <div className='hidden md:ml-6 md:flex md:justify-center md:items-center'>
-                                        <div className='flex justify-between items-center gap-10'>
+                                        <div className='flex justify-between items-center gap-10 text-lg'>
                                             {headerLinks.map((data: any) => (
                                                 <Link
                                                     key={data.id}
@@ -97,7 +90,7 @@ export const Header = () => {
                                     <Link
                                         href={'tel:+79493780380'}
                                         target='_blank'
-                                        className='hidden lg:block p-2 bg-sky-400 hover:bg-sky-300 transition text-white font-semibold rounded-md'
+                                        className='hidden text-lg lg:block p-2 bg-sky-400 hover:bg-sky-300 transition text-white font-semibold rounded-md'
                                     >
                                         +7(949)378-03-80
                                     </Link>

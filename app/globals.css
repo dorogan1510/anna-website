@@ -3,14 +3,12 @@
 @tailwind utilities;
 
 /* Colors */
-sky-400
+/* sky-400
 green-700
-white
+white */
 /* Colors */
 
-
-Reset CSS
-* {
+Reset CSS * {
     padding: 0;
     margin: 0;
 }

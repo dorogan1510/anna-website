@@ -10,7 +10,7 @@ export const FifthSection = () => {
             <div className={style.fifthSection}></div>
             <div className='px-4'>
                 <div className='mb-4 p-4 lg:p-2 flex flex-col lg:flex-row justify-between items-center gap-4 bg-sky-400 text-white rounded-xl'>
-                    <p className='text-2xl text-center'>
+                    <p className='text-3xl text-center'>
                         Узнай свой уровень английского уже сейчас
                     </p>
                     <Link
@@ -22,14 +22,14 @@ export const FifthSection = () => {
                     </Link>
                 </div>
                 <div id='id3' className='mb-10 text-center'>
-                    <h2 className='text-green-700 uppercase font-bold text-4xl'>
+                    <h2 className='mb-2 text-green-700 uppercase font-bold text-4xl'>
                         Тарифы
                     </h2>
                     <p className='text-green-700 text-xl'>
                         <span className='text-sky-400 font-bold'>
                             с доступом 24/7
                         </span>{' '}
-                        с любого устройства
+                        <br />с любого устройства
                     </p>
                 </div>
                 <div className='mb-16 flex flex-col lg:flex-row justify-between items-center gap-16 lg:gap-10'>
@@ -79,7 +79,7 @@ export const FifthSection = () => {
                             General
                         </h3>
                         <p className='mb-4 text-center'>
-                            Курс общего английского
+                            Курс общего английского и немецкого
                         </p>
                         <p className='mb-4 text-lg text-green-700 font-bold'>
                             Возраст: 9-15 лет
@@ -149,21 +149,23 @@ export const FifthSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='mb-6 mx-auto text-center'>
-                    <h3 className='inline-block mb-6 mr-6 text-2xl text-sky-400 font-bold '>
-                        РАЗГОВОРНЫЕ КЛУБЫ для ПОДРОСТКОВ от 500 рублей
+                <div className='flex flex-col md:flex-row justify-center items-center gap-6 mb-6 mx-auto text-center'>
+                    <h3 className='inline-block text-2xl text-sky-400 font-bold '>
+                        РАЗГОВОРНЫЕ КЛУБЫ для ПОДРОСТКОВ{' '}
+                        <br className='md:hidden' />
+                        от 500 рублей
                     </h3>
                     <Link
                         href={'https://vk.com/uslugi-219355832?screen=group'}
                         target='_blank'
-                        className='inline-block p-4 text-center bg-sky-400 hover:bg-sky-300 transition text-white text-lg font-semibold rounded-xl'
+                        className='inline-block p-4 text-center bg-sky-400 hover:bg-sky-300 transition text-white text-2xl font-semibold rounded-xl'
                     >
                         Смотреть еще ➡
                     </Link>
                 </div>
                 <Link
                     href={'https://t.me/Boomerang_english_bot'}
-                    className='px-10 py-4 block rounded-xl w-fit mx-auto  bg-green-700 hover:bg-green-600 transition text-2xl text-white font-bold'
+                    className='px-4 md:px-10 py-4 text-center block rounded-xl w-fit mx-auto  bg-green-700 hover:bg-green-600 transition text-2xl text-white font-bold'
                 >
                     Записаться на пробный урок
                 </Link>
