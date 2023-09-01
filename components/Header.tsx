@@ -70,7 +70,7 @@ export const Header = () => {
                                             <Image
                                                 src={logo}
                                                 alt={'logo'}
-                                                className='w-[8rem] h-auto'
+                                                className='w-[5rem] lg:w-[8rem] h-auto'
                                             ></Image>
                                         </Link>
                                     </div>
