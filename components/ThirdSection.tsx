@@ -21,21 +21,21 @@ export const ThirdSection = () => {
                     наши ученики
                 </h2>
                 <div className='mb-4 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-4'>
-                    <div className='max-w-md'>
+                    <div className='max-w-md flex-1'>
                         <Image
                             className='border-2 border-green-600 rounded-3xl w-full h-auto'
                             src={review1}
                             alt={''}
                         ></Image>
                     </div>
-                    <div className='max-w-md'>
+                    <div className='max-w-md flex-1'>
                         <Image
                             className='border-2 border-green-600 rounded-3xl w-full h-auto'
                             src={review2}
                             alt={''}
                         ></Image>
                     </div>
-                    <div className='flex flex-col justify-between gap-4'>
+                    <div className='flex flex-1 flex-col justify-between gap-4'>
                         <div className='max-w-md'>
                             <Image
                                 className='border-2 border-green-600 rounded-3xl w-full h-auto'
