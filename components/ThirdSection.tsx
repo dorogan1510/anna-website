@@ -113,7 +113,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={britainIcon}
                                             alt={'britain-icon'}
@@ -169,7 +169,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={britainIcon}
                                             alt={'britain-icon'}
@@ -222,7 +222,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={britainIcon}
                                             alt={'britain-icon'}
@@ -276,7 +276,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={britainIcon}
                                             alt={'britain-icon'}
@@ -333,7 +333,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={britainIcon}
                                             alt={'britain-icon'}
@@ -389,7 +389,7 @@ export const ThirdSection = () => {
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
-                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                    <div className='absolute w-[50px] lg:w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
                                         <Image
                                             src={germanIcon}
                                             alt={'britain-icon'}
