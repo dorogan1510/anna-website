@@ -10,8 +10,8 @@ import img3 from '@/public/img/4-section/3.jpg'
 import img4 from '@/public/img/4-section/4.jpg'
 import img5 from '@/public/img/4-section/5.jpg'
 import img6 from '@/public/img/4-section/6.jpg'
-import britainIcon from '@/public/img/4-section/britain.png'
-import germanIcon from '@/public/img/4-section/german.png'
+import britainIcon from '@/public/img/4-section/britain1.png'
+import germanIcon from '@/public/img/4-section/german1.png'
 
 export const ThirdSection = () => {
     return (
