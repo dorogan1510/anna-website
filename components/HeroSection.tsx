@@ -14,7 +14,7 @@ export const HeroSection = () => {
                         Boomerang
                     </div>
                     <hr className='h-2 w-80 mt-4 mb-10 bg-white rounded-sm' />
-                    <div className='mb-4 text-xl lg:text-3xl 2xl:text-5xl font-bold max-w-2xl'>
+                    <div className='mb-4 text-xl lg:text-3xl 2xl:text-5xl font-bold max-w-2xl 2xl:max-w-5xl'>
                         <div>
                             Боитесь, что online обучение <br /> — деньги на
                             ветер?

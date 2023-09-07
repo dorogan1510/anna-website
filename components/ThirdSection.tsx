@@ -10,6 +10,8 @@ import img3 from '@/public/img/4-section/3.jpg'
 import img4 from '@/public/img/4-section/4.jpg'
 import img5 from '@/public/img/4-section/5.jpg'
 import img6 from '@/public/img/4-section/6.jpg'
+import britainIcon from '@/public/img/4-section/britain.png'
+import germanIcon from '@/public/img/4-section/german.png'
 
 export const ThirdSection = () => {
     return (
@@ -81,7 +83,7 @@ export const ThirdSection = () => {
                         </div>
                         <div className='max-w-lg lg:max-w-2xl p-8  rounded-3xl bg-sky-400/80 text-left text-white'>
                             <h3 className='uppercase mb-4 text-xl md:text-2xl font-bold'>
-                                Подключение <br /> в один клик
+                                Подключение в один клик
                             </h3>
                             <div className='text-lg md:text-xl'>
                                 Вам больше не нужно устанавливать дополнительные
@@ -105,13 +107,21 @@ export const ThirdSection = () => {
                         </h3>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img1}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={britainIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
+
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
                                         Анна Устинова
@@ -153,12 +163,19 @@ export const ThirdSection = () => {
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img2}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={britainIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
@@ -199,12 +216,19 @@ export const ThirdSection = () => {
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img3}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={britainIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
@@ -246,12 +270,19 @@ export const ThirdSection = () => {
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img4}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={britainIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
@@ -296,12 +327,19 @@ export const ThirdSection = () => {
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img5}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={britainIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
@@ -345,12 +383,19 @@ export const ThirdSection = () => {
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
                             <div className='mx-auto w-full  lg:m-0 flex flex-col lg:flex-row justify-between items-center gap-4'>
-                                <div className='max-w-[150px] lg:max-w-[100px]'>
+                                <div className='relative max-w-[150px] lg:max-w-[100px]'>
                                     <Image
                                         src={img6}
                                         alt={''}
                                         className='w-full h-auto rounded-full'
                                     ></Image>
+                                    <div className='absolute max-w-[60px] lg:max-w-[40px] bottom-[-0.5rem] right-0 lg:bottom-[-0.5rem] lg:right-0'>
+                                        <Image
+                                            src={germanIcon}
+                                            alt={'britain-icon'}
+                                            className='w-full h-auto rounded-full'
+                                        ></Image>
+                                    </div>
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>

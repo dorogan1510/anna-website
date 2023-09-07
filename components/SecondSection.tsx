@@ -52,7 +52,7 @@ export const SecondSection = () => {
                         ></Image>
                         <p>
                             &quot;Мой ребёнок не хочет заниматься
-                            английским!&quot;
+                            немецким!&quot;
                         </p>
                     </div>
                     <div className='flex justify-start items-center p-1 mb-6 rounded-xl border-2 md:text-lg border-sky-400'>
@@ -73,8 +73,8 @@ export const SecondSection = () => {
                             className='w-16 h-16'
                         ></Image>
                         <p>
-                            &quot;Мы устали делать домашку по английскому до
-                            ночи всей семьей!&quot;
+                            &quot;Мы устали делать домашку по немецкому до ночи
+                            всей семьей!&quot;
                         </p>
                     </div>
                 </div>
