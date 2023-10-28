@@ -232,10 +232,10 @@ export const ThirdSection = () => {
                                 </div>
                                 <div className='w-full'>
                                     <h4 className='text-center lg:text-left text-xl font-bold'>
-                                        Дарья Твердохлеб
+                                        Александра Королёва{' '}
                                     </h4>
                                     <p className='mb-2 text-lg text-sky-400 font-semibold text-center lg:text-left'>
-                                        Преподаватель (7-15 лет)
+                                        Преподаватель (10-18+ лет)
                                     </p>
                                     <p className='mb-1'>
                                         <span className='font-semibold text-green-700'>
@@ -247,25 +247,28 @@ export const ThirdSection = () => {
                                         <span className='font-semibold text-green-700'>
                                             Образование:{' '}
                                         </span>
-                                        бакалавр «Филолог английского языка»,
-                                        магистр «Лингвистика»
+                                        бакалавр «Филология»; магистр
+                                        «Лингвистика и межкультурная
+                                        коммуникация» Особые отметки: опыт
+                                        работы в самой крупной языковой школы в
+                                        российском образовательном сообществе
                                     </p>
                                     <p className='mb-1'>
                                         <span className='font-semibold text-green-700'>
                                             Особые отметки:{' '}
                                         </span>
-                                        действующий школьный учитель
+                                        опыт работы в самой крупной языковой
+                                        школы в российском образовательном
+                                        сообществе
                                     </p>
                                 </div>
                             </div>
                             <p className='lg:max-w-md italic'>
-                                &quot;Главное в изучении иностранного языка -
-                                наслаждаться процессом. И тогда результат не
-                                заставит себя долго ждать. Делаю свои уроки не
-                                только полезными, но и увлекательными. Давай
-                                вместе погрузимся в удивительный мир английского
-                                и сделаем его приятной частью своей жизни.
-                                Welcome aboard! &quot;
+                                &quot;Без знания английского сейчас никуда, но,
+                                когда дело доходит до грамматики, многие
+                                пугаются. Я докажу тебе , что изучение
+                                иностранного языка может быть интересным и
+                                увлекательным. Welcome aboard!&quot;
                             </p>
                         </div>
                         <div className='mb-2 p-4 flex flex-col lg:flex-row justify-between items-start gap-4 lg:items-center bg-white rounded-2xl border-2 border-green-600 '>
